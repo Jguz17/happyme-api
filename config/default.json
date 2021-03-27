@@ -1,4 +1,4 @@
 {
     "mongoURI": "mongodb+srv://user123:user123@happyme-api.2xvuw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwSecret": "secret"
+    "jwtSecret": "secret"
 }

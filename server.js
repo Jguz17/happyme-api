@@ -6,9 +6,10 @@ const app = express()
 
 connectDB()
 
-app.use(cors())
+app.use(express.json());
+app.use(cors({origin:true,credentials: true}));
 
-// app.use*
+app.use("/api/users", require("./routes/users"))
 
 const PORT = process.env.PORT || 5000
 
