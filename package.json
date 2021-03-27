@@ -1,0 +1,32 @@
+{
+  "name": "happyme-api",
+  "version": "1.0.0",
+  "description": "A gratuity logger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jguz17/happyme-api.git"
+  },
+  "author": "Johnathan Guzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jguz17/happyme-api/issues"
+  },
+  "homepage": "https://github.com/Jguz17/happyme-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
